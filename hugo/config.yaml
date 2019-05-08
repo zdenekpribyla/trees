@@ -1,0 +1,7 @@
+baseUrl: http://example.org/
+canonifyURLs: true
+languageCode: cs
+theme: basic
+params:
+  phone: 606 504 038
+  email: Vajda.Tomas@seznam.cz 
