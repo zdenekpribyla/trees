@@ -1,0 +1,62 @@
+{{ define "main" }}
+
+<section id="hp__banner" class="bar relative-positioned">
+    <div class="container">
+
+        <div class="banner__info">
+            <h1 class="text-center" style="margin-bottom: 15px;">Vyškové práce</h1>
+            <div class="banner__info-contact">
+                <div class="homepage__header-contact"><i class="fas fa-mobile-alt benefity__icon"
+                        style="padding-right: 20px"></i><a href="tel:{{ .Site.Params.phone }}"
+                        style="letter-spacing: 1px;color: white">{{ .Site.Params.phone }}</a>
+                </div>
+                <div class="homepage__header-contact"><i class="fas fa-envelope benefity__icon"
+                        style="padding-right: 20px"></i>{{ .Site.Params.email }}</div>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="hp__service" class="bar relative-positioned">
+    <div class="container text-center">
+        <h2 class="hp__h2-title sample-heading">Provádím tyto práce ve výškách</h2>
+        <div class="row">
+            <div class="col-sm-12 col-md-4 px-4">
+                <div class="hp__service-box">
+                    <h3 class="hp__h3-title">Rizikové kácení stromů</h3>
+                    <img src="/images/service-cut-2.jpg" class="img-fluid img-fluid-service-homepage">
+                    <p class="text-left p-3">Even though using "lorem ipsum" often arouses curiosity due to its
+                        resemblance to classical Latin, it is not intended to have meaning. Where text is visible in a
+                        document, people</p>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4 px-4">
+                <div class="hp__service-box">
+                    <h3 class="hp__h3-title">Rizikové kácení stromů</h3>
+                    <img src="/images/service-cut-2.jpg" class="img-fluid img-fluid-service-homepage">
+                    <p class="text-left p-3">Even though using "lorem ipsum" often arouses curiosity due to its
+                        resemblance to classical Latin, it is not intended to have meaning. Where text is visible in a
+                        document, people</p>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4 px-4">
+                <div class="hp__service-box">
+                    <h3 class="hp__h3-title">Rizikové kácení stromů</h3>
+                    <img src="/images/service-cut-2.jpg" class="img-fluid img-fluid-service-homepage">
+                    <p class="text-left p-3">Even though using "lorem ipsum" often arouses curiosity due to its
+                        resemblance to classical Latin, it is not intended to have meaning. Where text is visible in a
+                        document, people</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+</section>
+
+{{- end }}
