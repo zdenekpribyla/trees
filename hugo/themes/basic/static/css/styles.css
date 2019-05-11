@@ -33,6 +33,7 @@
 
 .hp__service-box {
     box-shadow: 0px 2px 4px rgba(0, 0, 0, .5);
+    margin-bottom: 40px;
 }
 .hp__h3-title {
     font-size: 24px;
@@ -40,6 +41,19 @@
 }
 .img-fluid-service-homepage {
     max-width: 270px;
+}
+.hp__service-button {
+    padding: 10px 16px;
+    background: #146d7b;
+    font-size: 20px;
+    color: white;
+    margin: 0 0 15px 0;
+    display: inline-block;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.hp__service-button:hover {
+    background: #084853;
 }
 
 
