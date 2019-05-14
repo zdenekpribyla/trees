@@ -1,0 +1,43 @@
+<section id="kontakty" style="color: #cdcdcd; background: #1c1c1c">
+	<div class="container" style="padding-top: 20px; padding-bottom: 20px">
+		<div class="row">
+			<div class="col-md-3 col-xs-12">
+
+				<h4 class="footer__kontakt-title">O mně</h4>
+				
+					
+						<blockquote class="blockquote" style="font-size: 16px">
+							<p>Používám špičkové lezecké vybavení a mám všechny potřebené certifikace pro práce ve výškách.</p>
+							<footer class="blockquote-footer">Tomáš Vajda</footer>
+						</blockquote>
+					
+					
+				</div>
+			<div class="col-md-3 col-xs-12 px-4">
+				<img src="/images/personal-foto.jpg" class="img-fluid" style="max-width: 200px">
+			</div>
+			
+			<div class="col-md-3 col-xs-12 px-4">
+				<h4 class="footer__kontakt-title">Kontakt</h4>
+				<ul class="list-style-type kontakt__texty" style="padding: 0; margin: 0">
+					<li class="footer__kontakt-li"><i class="fas fa-phone footer__kontakt-icon"></i><a href="tel:{{ .Site.Params.phone }}">{{ .Site.Params.phone }}</a> Po-Pá 8-18h</li>
+					<li class="footer__kontakt-li"><i class="fas fa-at footer__kontakt-icon"></i>{{ .Site.Params.email }}</li>
+					<li class="footer__kontakt-li"><div style="display: inline-block"><i class="fas fa-map-marker-alt footer__kontakt-icon" style="padding-right: 20px"></i></div><div style="display: inline-block; vertical-align: middle">Tyršova 5<br>Opava 74601</div></li>
+				</ul>
+			</div>
+			<div class="col-md-3 col-xs-12 px-4">
+				<h4 class="footer__kontakt-title">Fakturační údaje</h4>
+				<ul class="list-style-type kontakt__texty" style="padding: 0; margin: 0">
+					<li class="footer__kontakt-li">Bc. Tomáš Vajda</li>
+					<li class="footer__kontakt-li">Kajlovec 64, 74741</li>
+					<li class="footer__kontakt-li">IČ: 05824460</li>
+				</ul>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+<section id="created" style="color: #cdcdcd; background: #222222">
+	<div style="padding: 15px 0; text-align: center; color: #868686; font-size: 14px">Gladly created by <a href="https://pribyla.com" style="color: #cdcdcd">pribyla.com</a> | © 2014 - {{ dateFormat "2006" now }} <a href="/" style="color: #cdcdcd">tomasvajda.cz</a></div>
+</section>

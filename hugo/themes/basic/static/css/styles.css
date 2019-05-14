@@ -2,7 +2,6 @@
     margin-top: 58px
 }
 
-
 /* Homepage  */
 #hp__banner {
     background: url('/images/header-1-regular.jpg') center center no-repeat; 
@@ -12,7 +11,7 @@
 .banner__info {
     margin: 5% 0;
     padding: 20px 30px; 
-    border: solid 3px white; 
+    border: solid 3px #00000059; 
     background: #00000094; 
     display: inline-block;
     color: white
@@ -32,39 +31,97 @@
 }
 
 .hp__service-box {
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, .5);
+    /* box-shadow: 0px 2px 4px rgba(0, 0, 0, .5); */
     margin-bottom: 40px;
+    max-width: 300px;
 }
+
+.img-fluid-service-homepage:hover {
+    opacity: 0.8;
+}
+
 .hp__h3-title {
     font-size: 24px;
     padding: 15px 0 7px 0;
+    color: black;
 }
-.img-fluid-service-homepage {
-    max-width: 270px;
+.hp__h3-title:hover {
+    text-decoration: underline;
+    text-decoration-color: #146d7b; 
 }
+    
+
 .hp__service-button {
-    padding: 10px 16px;
+    color: rgb(255, 255, 255);
     background: #146d7b;
-    font-size: 20px;
-    color: white;
-    margin: 0 0 15px 0;
+    border-bottom: 2px solid rgb(14, 75, 84);
+    padding: 5px 8px;
+    margin: 15px 0 10px 0;
     display: inline-block;
-    border-top-left-radius: 20px;
-    border-bottom-right-radius: 20px;
 }
 .hp__service-button:hover {
-    background: #084853;
+    background: #105863;
+    border-bottom: 2px solid rgb(9, 51, 58);
 }
 
 
-/* https://codepen.io/ThiemelJiri/post/3-css-border-in-corners-techniques */
-/* .sample-heading {
-    border-style: solid;
-    border-width: 0.25em;
-    border-image-source: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22 viewBox=%220 0 80 80%22%3E%3Crect x=%224%22 y=%224%22 width=%2272%22 height=%2272%22 fill=%22transparent%22 stroke=%22%23000%22 stroke-width=%228%22 %2F%3E%3C%2Fsvg%3E");
-    border-image-slice: 50%;
-    border-image-width: 20px;
-  } */
+.hp__order-box {
+    background: #ffffffa8;
+    max-width: 300px;
+    padding: 10px;
+}
+
+#hp__order {
+    background: url(/images/cz-pozadi-gauss.jpg)
+}
+
+
+/* Reffer */
+/* bubbles https://codingislove.com/css-speech-bubbles/ */
+.hp__reffer-box {
+  width: 270px;
+  margin: 0px auto 40px auto;
+  background: #146d7b;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+  font-family: arial;
+  position:relative;
+  border-left: 4px solid rgb(14, 75, 84)
+}
+
+.hp__reffer-box:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 15px solid #146d7b;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #146d7b;
+    border-bottom: 15px solid transparent;
+    left: 40px;
+    bottom: -30px;
+  }
+
+  .hp__reffer-name {
+      font-weight: bold;
+      margin-bottom: 40px
+  }
+
+/* Footer */
+
+.footer__kontakt-title {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.footer__kontakt-li {
+    list-style: none;
+    margin-bottom: 15px;
+}
+.footer__kontakt-icon {
+    padding-right: 10px;
+}
 
 
 /***** Top menu *****/
@@ -72,7 +129,8 @@
 .navbar__logo-text {
     margin-left: 10px;
     color: white;
-    font-size: 20px;
+    font-size: 24px;
+    vertical-align: sub;
 }
 
 .navbar {
