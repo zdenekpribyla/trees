@@ -4,12 +4,12 @@
 
 /* Homepage  */
 #hp__banner {
-    background: url('/images/header-1-regular.jpg') center center no-repeat; 
+    background: url('/images/head-1.jpg') center top no-repeat; 
     background-size: cover; 
-    margin-top: 50px;
+    margin-top: 0px;
 }
 .banner__info {
-    margin: 5% 0;
+    margin: 7% 0;
     padding: 20px 30px; 
     border: solid 3px #00000059; 
     background: #00000094; 
@@ -35,6 +35,11 @@
     margin-bottom: 40px;
     max-width: 300px;
 }
+
+.hp__service-ul {
+    padding-inline-start: 18px;
+}
+
 
 .img-fluid-service-homepage:hover {
     opacity: 0.8;

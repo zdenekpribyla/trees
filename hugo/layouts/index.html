@@ -8,7 +8,7 @@
             <div class="banner__info-contact">
                 <div class="homepage__header-contact"><i class="fas fa-mobile-alt benefity__icon"
                         style="padding-right: 20px"></i><a href="tel:{{ .Site.Params.phone }}"
-                        style="letter-spacing: 1px;color: white">{{ .Site.Params.phone }}</a>
+                        style="letter-spacing: 1px;color: white; text-decoration: underline">{{ .Site.Params.phone }}</a>
                 </div>
                 <div class="homepage__header-contact"><i class="fas fa-envelope benefity__icon"
                         style="padding-right: 15px"></i>{{ .Site.Params.email }}</div>
@@ -21,54 +21,75 @@
 
 <section id="hp__service" class="bar relative-positioned">
     <div class="container text-center">
-        <h2 class="hp__h2-title sample-heading">Provádím tyto práce ve výškách</h2>
-        <div class="row">
+        <!-- <h2 class="hp__h2-title sample-heading">Provádím tyto práce ve výškách</h2> -->
+        <div class="row mt-5">
             <div class="col-sm-12 col-md-4 px-4">
                 <div class="hp__service-box">
 
                     <a href="/rizikove-kaceni-stromu/">
-                        <img src="/images/service-cut-2.jpg" class="img-fluid img-fluid-service-homepage"></a>
+                        <img src="/images/service-cut.jpg" class="img-fluid img-fluid-service-homepage"></a>
                     <a href="/rizikove-kaceni-stromu/">
-                        <h3 class="hp__h3-title text-left">Rizikové kácení stromů</h3>
+                        <h3 class="hp__h3-title text-left">Kácení a ořezy stromů</h3>
                     </a>
 
-                    <div class="text-left">Even though using "lorem ipsum" often arouses curiosity due to its
-                        resemblance to classical Latin, it is not intended to have meaning. Where text is visible in a
-                        document, people</div>
+                    <div class="text-left">
+                        <ul class="hp__service-ul">
+                            <li>kácení stromů lezeckou technikou v těžkopřístupných a rizikových místech</li>
+                            <li>rizikové kácení v blízkosti domů, plotů a el. vedení</li>
+                            <li>kácení nakloněných stromů</li>
+                            <li>těžba dřeva</li>
+                            <li>ořezy větví a odstraňování nebezpečných větví</li>
+                            <li>odstraňování jmelí a popínavých rostlin</li>
+                        </ul>
+                    </div>
 
-                    <a href="/rizikove-kaceni-stromu/">
+                    <!-- <a href="/rizikove-kaceni-stromu/">
                         <div class="hp__service-button">číst více ></div>
-                    </a>
+                    </a> -->
                 </div>
             </div>
             <div class="col-sm-12 col-md-4 px-4">
                 <div class="hp__service-box">
-                    <a href="/rizikove-kaceni-stromu/"><img src="/images/natirani-stozaru.jpg"
+                    <a href="/rizikove-kaceni-stromu/"><img src="/images/service-nater.jpg"
                             class="img-fluid img-fluid-service-homepage"></a>
                     <a href="/rizikove-kaceni-stromu/">
-                        <h3 class="hp__h3-title text-left">Nátěry ve výškách</h3>
+                        <h3 class="hp__h3-title text-left">Nátěry střech a opravy střešních krytin</h3>
                     </a>
-                    <div class="text-left">Even though using "lorem ipsum" often arouses curiosity due to its
-                        resemblance to classical Latin, it is not intended to have meaning. Where text is visible in a
-                        document, people</div>
-                    <a href="/natirani-ve-vyskach/">
+                    <div class="text-left">
+                        <ul class="hp__service-ul">
+                            <li>nátěry střech, fasád, žlabů a svodů</li>
+                            <li>nátěry kovových a dřevěných konstrukcí</li>
+                            <li>instalace siluet ptáků na fasádu a okna</li>
+                            <li>odstraňování sněhu a ledu ze střech</li>
+                            <li>čištění rýn, žlabů a jiné výškové práce</li>
+                            <li>nátěry stožárů el. vedení</li>
+                        </ul>
+                    </div>
+                    <!-- <a href="/natirani-ve-vyskach/">
                         <div class="hp__service-button">číst více ></div>
-                    </a>
+                    </a> -->
                 </div>
             </div>
             <div class="col-sm-12 col-md-4 px-4">
                 <div class="hp__service-box">
-                    <a href="/rizikove-kaceni-stromu/"><img src="/images/myti-oken-vyskovych-budov.jpg"
+                    <a href="/rizikove-kaceni-stromu/"><img src="/images/service-window.jpg"
                             class="img-fluid img-fluid-service-homepage"></a>
                     <a href="/rizikove-kaceni-stromu/">
-                        <h3 class="hp__h3-title text-left">Mytí oken ve výškách</h3>
+                        <h3 class="hp__h3-title text-left">Mytí oken a fasád</h3>
                     </a>
-                    <div class="text-left">Even though using "lorem ipsum" often arouses curiosity due to its
-                        resemblance to classical Latin, it is not intended to have meaning. Where text is visible in a
-                        document, people</div>
-                    <a href="/myti-oken/">
+                    <div class="text-left">
+                        <ul class="hp__service-ul">
+                            <li>mytí oken a prosklených ploch</li>
+                            <li>mytí fasád, tubusů a prosklených schodišť</li>
+                            <li>mytí oken v těžkopřístupných a rizikových místech</li>
+                            <li>mytí oken z lana, z plošiny i ze země</li>
+                            <li>odstraňování sněhu a ledu ze střech</li>
+                            <li>tmelení a spárování</li>
+                        </ul>
+                    </div>
+                    <!-- <a href="/myti-oken/">
                         <div class="hp__service-button">číst více ></div>
-                    </a>
+                    </a> -->
 
                 </div>
             </div>
@@ -77,101 +98,98 @@
     </div>
 </section>
 
-<section id="hp__order">
-        <div class="container text-center" style="padding-top: 60px; padding-bottom: 20px">
-            <div class="row">
-                <div class="col-md-4 col-xs-12 px-4" style="margin-bottom: 45px">
-                    <div class="hp__order-box h-100">
-                        <!--<i class="fas fa-phone benefity__icon fa-3x"></i>-->
-                        <h4 class="homepage__contact-step-title"><b>1.</b> Kontaktujte nás</h4>
-                        <img src="/images/call-me.jpg" class="img-fluid" style="border-radius: 50%; max-width: 150px; margin-top: 12px">
-                        <p class="benefity__desc" style="margin-top: 20px">
-                            Napište nám email na <b>{{ .Site.Params.email }}</b> nebo zavolejte <a href="tel:{{ .Site.Params.phone }}" style="color: #09365b; font-weight: bold">{{ .Site.Params.phone }}</a> v Po-Pá 8-18 hod.
-                        </p>
-                    </div>
+ <!-- <section id="hp__order">
+    <div class="container text-center" style="padding-top: 60px; padding-bottom: 20px">
+        <div class="row">
+            <div class="col-md-4 col-xs-12 px-4" style="margin-bottom: 45px">
+                <div class="hp__order-box h-100">
+                
+                    <h4 class="homepage__contact-step-title"><b>1.</b> Kontaktujte nás</h4>
+                    <img src="/images/call-me.jpg" class="img-fluid"
+                        style="border-radius: 50%; max-width: 150px; margin-top: 12px">
+                    <p class="benefity__desc" style="margin-top: 20px">
+                        Napište nám email na <b>{{ .Site.Params.email }}</b> nebo zavolejte <a
+                            href="tel:{{ .Site.Params.phone }}"
+                            style="color: #09365b; font-weight: bold">{{ .Site.Params.phone }}</a> v Po-Pá 8-18 hod.
+                    </p>
                 </div>
-    
-                <div class="col-md-4 col-xs-12 px-4" style="margin-bottom: 45px">
-                    <div class="hp__order-box h-100">
-                        <!--<i class="fas fa-envelope benefity__icon fa-3x"></i>-->
-                        <h4 class="homepage__contact-step-title" style="letter-spacing: 1px;"><b>2.</b> Dohodneme cenu</h4>
-                        <img src="/images/dangerous-tree.jpg" class="img-fluid" style="border-radius: 50%; max-width: 150px; margin-top: 12px">
-                        <p class="benefity__desc" style="margin-top: 20px">Přijedu, zhodnotím situaci a řeknu vám cenu. Případně lze přibližnou cenu odhadnout přes telefon z vašeho popisu či fotek.</p>
-                    </div>
+            </div>
+
+            <div class="col-md-4 col-xs-12 px-4" style="margin-bottom: 45px">
+                <div class="hp__order-box h-100">
+                    
+                    <h4 class="homepage__contact-step-title" style="letter-spacing: 1px;"><b>2.</b> Dohodneme cenu</h4>
+                    <img src="/images/dangerous-tree.jpg" class="img-fluid"
+                        style="border-radius: 50%; max-width: 150px; margin-top: 12px">
+                    <p class="benefity__desc" style="margin-top: 20px">Přijedu, zhodnotím situaci a řeknu vám cenu.
+                        Případně lze přibližnou cenu odhadnout přes telefon z vašeho popisu či fotek.</p>
                 </div>
-    
-                <div class="col-md-4 col-xs-12 px-4" style="margin-bottom: 45px">
-                    <div class="hp__order-box h-100">
-                        <!--<i class="fas fa-envelope benefity__icon fa-3x"></i>-->
-                        <h4 class="homepage__contact-step-title" style="letter-spacing: 1px;"><b>3.</b> Provedu práci</h4>
-                        <img src="/images/high-cut-small.jpg" class="img-fluid" style="border-radius: 50%; max-width: 150px; margin-top: 12px">
-                        <p class="benefity__desc" style="margin-top: 20px">Příjedu a provedu práci dle dohodnutých podmínek. Platba v hotovosti až po provední práce. U firem lze domluvit platbu převodem.</p>
-                    </div>
+            </div>
+
+            <div class="col-md-4 col-xs-12 px-4" style="margin-bottom: 45px">
+                <div class="hp__order-box h-100">
+                    
+                    <h4 class="homepage__contact-step-title" style="letter-spacing: 1px;"><b>3.</b> Provedu práci</h4>
+                    <img src="/images/high-cut-small.jpg" class="img-fluid"
+                        style="border-radius: 50%; max-width: 150px; margin-top: 12px">
+                    <p class="benefity__desc" style="margin-top: 20px">Příjedu a provedu práci dle dohodnutých podmínek.
+                        Platba v hotovosti až po provední práce. U firem lze domluvit platbu převodem.</p>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>  -->
 
 <section id="hp__reffer">
     <div class="container text-center">
-        <h2 class="hp__h2-title sample-heading">Pro koho jsem pracoval</h2>
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <h2 class="hp__h2-title sample-heading">Vybrané reference</h2>
+        <!-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
-              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
             </ol>
             <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="hp__reffer-box">
-                    Natírání stožárů vysokého napětí. Stovky stožárů po celé severní Moravě.
+                <div class="carousel-item active">
+                    <div class="hp__reffer-box">
+                        Natírání stožárů vysokého napětí. Stovky stožárů po celé severní Moravě.
+                    </div>
+                    <div class="hp__reffer-name">- ČEZ</div>
                 </div>
-                <div class="hp__reffer-name">- ČEZ</div>
-              </div>
-              <div class="carousel-item">
-                <div class="hp__reffer-box">
-                    Kácení vysokých stromů v přímém kontaktu se správní budovou zámku
+                <div class="carousel-item">
+                    <div class="hp__reffer-box">
+                        Kácení vysokých stromů v přímém kontaktu se správní budovou zámku
+                    </div>
+                    <div class="hp__reffer-name">- Státní zámek Hradec nad Moravicí</div>
                 </div>
-                <div class="hp__reffer-name">- Státní zámek Hradec nad Moravicí</div>
-              </div>
-              <div class="carousel-item">
-                <div class="hp__reffer-box">
-                    Kácení vysokých stromů v přímém kontaktu se správní budovou zámku
+                <div class="carousel-item">
+                    <div class="hp__reffer-box">
+                        Kácení vysokých stromů v přímém kontaktu se správní budovou zámku
+                    </div>
+                    <div class="hp__reffer-name">- Státní zámek Hradec nad Moravicí</div>
                 </div>
-                <div class="hp__reffer-name">- Státní zámek Hradec nad Moravicí</div>
-              </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
             </a>
             <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
             </a>
-          </div>
-        
-        <!-- <div class="row">
-            <div class="col-sm-12 col-md-4 px-4">
-                <div class="hp__reffer-box">
-                    Kácení vysokých stromů v přímém kontaktu se správní budovou zámku
-                </div>
-                <div class="hp__reffer-name">- Státní zámek Hradec nad Moravicí</div>
-            </div>
-            <div class="col-sm-12 col-md-4 px-4">
-                <div class="hp__reffer-box">
-                    Kácení vysokých stromů v přímém kontaktu se správní budovou zámku
-                </div>
-                <div class="hp__reffer-name">- Státní zámek Hradec nad Moravicí</div>
-            </div>
-            <div class="col-sm-12 col-md-4 px-4">
-                <div class="hp__reffer-box">
-                    Kácení vysokých stromů v přímém kontaktu se správní budovou zámku
-                </div>
-                <div class="hp__reffer-name">- Státní zámek Hradec nad Moravicí</div>
-            </div>
+        </div> --> 
 
-        </div> -->
+        <div class="row">
+            {{ range .Site.Data.reference }}
+            <div class="col-sm-12 col-md-4 px-2">
+                <div class="hp__reffer-box">
+                    {{ .id }}
+                </div>
+                <div class="hp__reffer-name">{{ .zadavatel }}</div>
+            </div>
+            {{ end }}
+
+        </div>
     </div>
 </section>
 
